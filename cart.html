@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div class="classify-view">
+        <!--导航-->
+        <nav class="nav-bar nav-bar-top">
+            <div class="welcome-logo">
+                <a href="index.html">
+                    <img src="images/23348.png" alt="">
+                </a>
+            </div>
+            <div class="welcome-div">
+                <a href="index.html"> 首页</a>
+            </div>
+            <div class="prev-div">
+                <a href="detail.html"> 上一页</a>
+            </div>
+            <div class="prev-div">
+                <a href="classify.html"> 购物车</a>
+            </div>
+            <div class="login-div">
+                <a href="register.html">登录</a>
+            </div>
+        </nav>
+        <div class="cart"></div>
+        <div class="accounts">
+            <div class="quanxuan"><input type="checkbox"  id="selectAll">全选</div>
+            <div class="total">合计：￥<span class="money">0</span></div>
+            <div class="tocheckout"><a href="checkout.html"></a>去结算</div>
+        </div>
+        <footer>
+            <ul class="footer-lei">
+                <li class="col-xs-3">
+                    <a href="index.html">
+                        <span class="glyphicon glyphicon-home"></span>
+                        <p>首页</p>
+                    </a>
+                </li>
+                <li class="col-xs-3">
+                    <a href="classify.html">
+                        <span class="glyphicon glyphicon-th-large"></span>
+                        <p>分类</p>
+                    </a>
+                </li>
+                <li class="col-xs-3">
+                    <a href="cart.html">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                        <p>购物车</p>
+                    </a>
+                </li>
+                <li class="col-xs-3">
+                    <a href="register.html">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <p>登录</p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

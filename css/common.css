@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 50px;
+}
+body{
+    font-size: 24px;
+}
+.classify-view{
+    width: 100%;
+    overflow: hidden;
+}
+.nav-bar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1rem;
+    background: #24272f;
+    z-index: 999;
+    overflow: visible;
+}
+.welcome-logo{
+    float: left;
+    box-sizing: border-box;
+    height: 1rem;
+    line-height: 1rem;
+    margin-left: 0.3rem;
+}
+.welcome-div{
+    float: left;
+    box-sizing: border-box;
+    height: 1rem;
+    line-height: 1rem;
+    margin-left: 0.18rem;
+}
+.welcome-div a{
+    color: white;
+    box-sizing: border-box;
+    font-size: 0.35rem;
+    font-weight: bold;
+}
+.title-div{
+    float: left;
+    color: #fff;
+    box-sizing: border-box;
+    margin-left: 0.7rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.35rem;
+}
+.login-div{
+    float: right;
+    margin-right: 0.3rem;
+    height: 1rem;
+    line-height: 1rem;
+}
+.login-div a{
+    color: white;
+    box-sizing: border-box;
+    font-size: 0.35rem;
+}
+.prev-div{
+    float: left;
+    color: #fff;
+    box-sizing: border-box;
+    margin-left: 0.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.35rem;
+}
+.prev-div a{
+    color: white;
+    box-sizing: border-box;
+    font-size: 0.2rem;
+}

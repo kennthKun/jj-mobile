@@ -1,0 +1,51 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div class="classify-view">
+    <!--导航-->
+    <nav class="nav-bar nav-bar-top">
+        <div class="welcome-logo">
+            <a href="index.html">
+                <img src="images/23348.png" alt="">
+            </a>
+        </div>
+        <div class="welcome-div">
+            <a href="index.html"> 首页</a>
+        </div>
+    </nav>
+    <div class="register-content">
+        <div class="email">
+            <input name='username' value="" type="email" placeholder="请输入用户名"/>
+        </div>
+        <div class="password">
+            <input name='password' value="" type="text" placeholder="请输入密码"/>
+        </div>
+        <div class="status">
+            <input type="checkbox"/>
+            <p>记住我的登录状态</p>
+        </div>
+        <div class="registers">
+            <button id="login" class="registers-btn">登录</button>
+            <div class="registers-from">
+                <button id="register" class="login-btn">注册</button>
+                <span class="success">用户名可用</span>
+                <span class="error"></span>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

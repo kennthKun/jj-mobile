@@ -1,0 +1,50 @@
+.goods{
+    position: relative;
+    margin-top: 1rem;
+}
+.goods-hot{
+    overflow: hidden;
+    background: white;
+}
+.goods-hot .item{
+    background-color: #f1f1f1;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 0.3rem;
+    width: 47%;
+    height: 5rem;
+    overflow: hidden;
+}
+.goods-hot .item a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color:#000;
+}
+.goods-hot .item a img{
+    width: 100%;
+    height: 50%;
+    border: 0;
+}
+.goods-hot .item a .desc{
+    width: 90%;
+    height: 1rem;
+    margin:0 auto;
+    font-size: 0.5rem;
+    line-height: 1;
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.goods-hot .item a .price{
+    height: 1rem;
+    text-align: center;
+    font-size: 0.5rem;
+    line-height: 1rem;
+    margin-bottom: 0.28rem;
+    margin-top: 0.15rem;
+    color: #2aabd2;
+}

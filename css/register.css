@@ -1,0 +1,74 @@
+.register-content{
+    width: 100%;
+    margin-top: 1rem;
+}
+.email{
+    margin: 0 auto;
+    width: 86%;
+    height: 1.2rem;
+    line-height: 1.8rem;
+    border-bottom: 2px solid gray;
+}
+.email input{
+    margin-left: 10px;
+    border: none;
+    color: silver;
+    font-size: 0.3rem;
+    outline: none;
+}
+.password{
+    margin: 0 auto;
+    width: 86%;
+    height: 1.2rem;
+    line-height: 1.8rem;
+    border-bottom: 2px solid gray;
+}
+.password input{
+    margin-left: 10px;
+    border: none;
+    color: silver;
+    font-size: 0.3rem;
+}
+.status{
+    margin: 0 auto;
+    width: 86%;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    text-align: center;
+}
+.status input{
+    float: left;
+    margin-top:8%;
+
+}
+.status p{
+    float: left;
+    margin-left: 10px;
+    font-size: 0.3rem;
+}
+.registers{
+    margin: 0 auto;
+    width: 86%;
+    height: 2.5rem;
+}
+.registers-btn{
+    width: 100%;
+    height: 1.1rem;
+    border-radius: 7px;
+    background: #24272F;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 0.4rem;
+}
+.login-btn{
+    width: 100%;
+    height: 1.1rem;
+    border-radius: 7px;
+    background:#0e0f12;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 0.4rem;
+}

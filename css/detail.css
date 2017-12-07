@@ -1,0 +1,132 @@
+
+.details{
+    margin-top: 1rem;
+    width: 100%;
+}
+/*轮播*/
+.detail-content{
+    position: relative;
+    width: 100%;
+    height: 5.8rem;
+    overflow: hidden;
+
+}
+.detail-content ul{
+    list-style: none;
+}
+.detail-content ul li{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 5.8rem;
+}
+.detail-content li .carousel-img{
+   display: block;
+    width: 100%;
+    height: 5.8rem;
+}
+.detail-content li img{
+    width: 100%;
+    height: 5.8rem;
+}
+/*小圆点*/
+.circles {
+    position: absolute;
+    top: 46%;
+    left: 80%;
+    transform: translateX(-50%);
+    z-index: 999;
+    width: 30%;
+    height: 20px;
+    background: rgba(0, 0,0,0.3);
+    border-radius: 20px;
+}
+.circles ul {
+    list-style: none;
+    text-align: center;
+    line-height: 15px;
+}
+.circles ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 6px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+}
+.circles ul li.cur {
+    background-color: orange;
+}
+/*图片*/
+.shop-pic{
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
+    display: none;
+}
+
+.shop-pic img{
+    width: 100%;
+    margin-top: 12%;
+}
+/*介绍价格*/
+.shop-introduction{
+    width: 90%;
+    height:1.5rem;
+    margin: 0 auto;
+    border-bottom: 2px solid #ccc;
+}
+.shop-introduction p{
+    font-size: 0.295rem;
+    margin-top: 10px;
+}
+.shop-introduction em{
+    font-size: 0.4rem;
+    color: #2aabd2;
+    font-style: normal;
+    margin-top: 15px;
+}
+/*数量*/
+.number{
+    width: 90%;
+    height:1.5rem;
+    margin: 0 auto;
+    border-bottom: 2px solid #ccc;
+}
+.number h6{
+    margin-top: 10px;
+}
+.number input{
+    width: 30px;
+    height: 30px;
+    border: 1px solid silver;
+    text-align: center;
+}
+
+.add-goods-btn{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 0.9rem;
+    text-align: center;
+    line-height: 0.9rem;
+    vertical-align: middle;
+    color: white;
+    background: #60a9d7;
+    font-size: 0.34rem;
+    border: 1px solid #cccccc;
+    z-index: 10000;
+}
+.add-goods-btn a{
+    color: white;
+}
+.add-goods-btn img{
+    width: 10%;
+    vertical-align: middle;
+}
