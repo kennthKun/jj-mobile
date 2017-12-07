@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+html {
+    font-size: 12px;
+}
+nav {
+    float: left;
+    height: 3.8333rem;
+}
+header{
+	width: 100%;
+}
+.navbar {
+	width: 100%;
+    background: rgba(0,0,0,0.2);
+    border: none;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+.navbar input::-webkit-placeholder {
+	color:white;
+}
+.container {
+    position: relative;
+}
+.logo {
+    float: left;
+    width: 9%;
+    height: 2.08rem;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 119% 170%;
+    background-position: -4px -8px;
+    margin: 0.625rem 0.4375rem 0rem 0.75rem;
+}
+.China {
+    float: left;
+    color:white;
+    line-height: 3.8333rem;
+    font-size: 1.08rem;
+    font-weight: 700;
+}
+.search-warp {
+    float: right;
+    width: 54%;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    position: relative;
+}
+.seek-case {
+    float: right;
+    width: 100%;
+    height: 2.833rem;
+    border: none;
+    background: rgba(250,250,250,0.6);
+    border-radius: 15px;
+    color: white;
+    padding-left: 15%;
+    font-size: 12px;
+    outline: none;
+}
+.glyphicon-shopping-cart {
+    float: right;
+    margin-right: 0.41rem;
+    margin-top: 0.8rem;
+    width: 6%;
+    height: 2.08rem;
+    font-size: 2.08rem;
+    color: white;
+}
+.glyphicon-list{
+    float: right;
+    margin-right: 0.833rem;
+    margin-top: 0.7rem;
+    width: 6%;
+    height: 1.833rem;
+    color: white;
+    font-size: 2.2rem;
+    background: none;
+    border: none;
+    outline: none;
+}
+.search-icon {
+    position: absolute;
+    left: 5%;
+    top: 23%;
+    font-size: 1.5rem;
+    color: #999999;
+}
+.carousel {
+    width: 100%;
+    height: 16.08rem;
+    /*overflow: hidden ; */
+}
+.carousel-inner {
+    width: 100%;
+    height: 16.08rem;
+    overflow: hidden;
+}
+.item {
+    width: 100%;
+   height: 16.08rem;
+   overflow: hidden;
+}
+.carousel-inner>.item>img {
+    height: 100%;
+}
+.item img {
+    width: 100%;
+}
+.advertisement {
+    width: 100%;
+    height: 22.33rem;
+}
+.adv-background {
+    width: 100%;
+    height: 19.333rem;
+    background: url(../images/guanggao.png) no-repeat;
+    background-size: 100% 100%;
+}
+.adv-bottom {
+    width: 100%;
+    height: 2.91rem;
+}
+.adv-bott-hot {
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    border: 1px solid #999;
+    border-radius: 15px;
+}
+.adv-bott-hot a {
+    float: left;
+    width: 7.5rem;
+    height: 100%;
+    margin-left: 1.08rem;
+    background:url(../images/lobo2.jpg) no-repeat;
+    background-size: 100% 106%;
+}
+.adv-bott-hot span {
+    line-height: 2.5rem;
+}
+.classify {
+    position: absolute;
+    overflow: hidden;
+    top: 3.8333rem;
+    left: 0px;
+    width: 100%;
+    background: rgba(250,250,250,0.7);
+    border-top: 1px solid #fff;
+    display: none;
+    /*transition: 1s;*/
+}
+.classify li {
+    list-style: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin-left: 1.6rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    background: #169F85;
+}
+.classify li>a {
+    text-decoration: none;
+    color: white;
+}
+.classify li:hover {
+    background: white;
+}
+.classify li:hover a{
+    color:rgb(22,159,133);
+}
+.carousel-indicators {
+    bottom: -6px;
+}
+/*内容*/
+.shop-content {
+	width: 100%;
+	margin: 0px;
+}
+.shop-content-box {
+    width: 100%;
+}
+ h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f70f0f;
+    background: -webkit-linear-gradient(left,#00f 44%,#f00 64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.shop-box-img {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url(../images/jinglingtu.png) no-repeat;
+    background-size: 450% 473%; 
+    background-position: 0px -22px;
+    vertical-align: middle;
+}
+.shop-content li{
+	list-style: none;
+    height: 9rem;
+    border: 1px solid #ccc;
+    margin-bottom: -1px;
+    position: relative;
+    padding: 0px;
+    text-align: center;
+}
+.shop-content li>a {
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	color: black;
+}
+.shop-content li>a>img {
+	width: 44%;
+	height: 100%;
+	float: right;
+}
+.shop-content li>a>em {
+	color:red;
+	font-style: normal;
+}
+.shop-content li>a>span {
+	display: block;
+	widows: 100%;
+	height: 40%;
+	font-size: 0.5srem;
+	overflow: scroll;
+	box-sizing: border-box;
+	padding: 0rem 0.5rem;
+	margin-top: 1rem;
+}
+.tone {
+	width: 100%;
+}
+.tone ul {
+	width: 100%;
+	background:#fff;
+	overflow: hidden;
+	border-top:1px solid #ccc;
+}
+.tone ul li {
+	float: left;
+	border: 1px solid #fff;
+	border-right: -1px;
+	list-style: none;
+	position: relative;
+}
+.tone ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color:black;
+}
+.tone ul li:nth-child(1) {
+	width: 50%;
+	height: 6.25rem;
+}
+.tone ul li:nth-child(2) {
+	width: 50%;
+	height: 6.25rem;
+}
+.tone ul li:nth-child(n)>a>span {
+	display: inline-block;
+	height: 74%;
+	float: right;
+	font-weight: 900;
+	font-size: 0.333rem;
+	width: 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0rem 0.5rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+.tone ul li:nth-child(1)>a>img {
+	width: 45%;
+	height: 100%;
+	float: right;
+}
+.tone ul li:nth-child(2)>a>img {
+	width: 45%;
+	height: 100%;
+	float: right;
+}
+.tone ul li:nth-child(n+3) {
+	width: 33.33333%;
+	height: 8.91rem;
+}
+.tone ul li:nth-child(n+3)>a>span {
+	display: inline-block;
+	width: 100%;
+	height: 20%;
+	font-size: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	text-decoration: underline;
+	margin-bottom: 0px;
+	padding: 0rem 0.5rem;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.tone ul li:nth-child(n+3)>a>img {
+	width: 100%;
+	height: 100%;
+}
+.classifyss {
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.classifyss ul {
+	width: 100%;
+	overflow: hidden;
+}
+.classifyss ul li {
+	width: 33.3333%;
+	height: 15.6rem;
+	float: left;
+	list-style: none;
+	border:1px solid #ccc;
+	margin-right: -1px;
+	margin-bottom: -1px;
+}
+.classifyss ul li a {
+	display: block;
+	width:100%;
+	height: 100%;
+	text-decoration: none;
+	color:black;
+	box-sizing: border-box;
+	padding: 0.6rem;
+	overflow: hidden;
+}
+.classifyss ul li a img {
+	width: 99%;
+	height: 66%;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-bottom: 1.3rem;
+}
+.classifyss ul li a span {
+	width: 90%;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+.classifyss ul li a em {
+	font-style: normal;
+	color: #f00;
+}
+.three-link {
+	width: 100%;
+	height: 11.02rem;
+	margin-top: 2rem;
+	background: url(../images/333.png) no-repeat;
+	background-size: 100% 100%;
+}
+.last-shop {
+	width: 100%;
+	border-top: 1px solid #ccc;
+}
+.last-shop ul {
+	width: 100%;
+	overflow: hidden;
+	background: white;
+}
+.last-shop ul li {
+	width: 33.333%;
+	height: 18.41rem;
+	list-style: none;
+	float: left;
+	border: 1px solid #ccc;
+	margin-right: -1px;
+	margin-bottom: -1px;
+}
+.last-shop ul li>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding: 0.7rem;
+	color: black;
+}
+.last-shop ul li>a>img {
+	width: 99%;
+	height: 50%;
+}
+.last-shop ul li>a>p {
+	display: block;
+	width: 90%;
+	height: 30%;
+	overflow: hidden;
+}
+.last-shop ul li>a>em {
+	ont-style: normal;
+	color: #f00;
+}
+.footer {
+	width: 100%;
+	height: 13rem;
+	background: url(../images/footer.png) no-repeat;
+	background-size: 100% 100%;
+}

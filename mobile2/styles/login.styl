@@ -1,0 +1,80 @@
+rem(px)
+  return px/14rem
+html,body
+  width 100%
+  height 100%
+  font-size 14px;
+  text-align center
+  background-image linear-gradient(125deg,#13FFFF ,#20b4ff , #0693ff );
+  overflow hidden
+#back
+  position absolute
+  left 5%
+  top 1%
+  font-size rem(18)
+h1
+  position relative
+  top: 30%
+  color white
+p
+  position relative
+  top 35%
+  width 100%
+  height 10%
+  line-height rem(56)
+  font-weight bold
+
+p input
+  width 70%
+  height 70%
+  padding-left 5%
+  outline-style none
+  border 1px solid darkgray
+  border-radius 25px
+  box-sizing border-box
+button
+  width 70%
+  height 70%
+  line-height 100%
+  outline-style none
+  border 1px solid ghostwhite
+  border-radius 15px
+  font-size rem(18)
+  font-weight 400
+  color ghostwhite
+  letter-spacing rem(8)
+  background-color #b6c1ff
+  box-sizing border-box
+input::-webkit-input-placeholder{
+  color: #2e2e2e;opacity:0.3;
+}
+ul
+  position relative
+  top: 32%
+  overflow hidden
+  -webkit-padding-start 0
+ul li
+  float left
+  padding 5%
+  list-style none
+  font-size rem(14)
+  color ghostwhite
+  box-sizing border-box
+ul li:first-child
+  margin-left 15%
+ul li a
+  color ghostwhite
+ul li a:hover
+  text-decoration underline
+#warp
+  position absolute
+  top 80%
+  width 100%
+  height 10%
+  line-height rem(56)
+  background-color #515151
+  color white
+  opacity 0
+  transition 0.5s
+  display none
+  z-index 1

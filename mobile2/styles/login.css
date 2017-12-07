@@ -1,0 +1,91 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  text-align: center;
+  background-image: linear-gradient(125deg, #13ffff, #20b4ff, #0693ff);
+  overflow: hidden;
+}
+#back {
+  position: absolute;
+  left: 5%;
+  top: 1%;
+  font-size: 1.285714285714286rem;
+}
+h1 {
+  position: relative;
+  top: 30%;
+  color: #fff;
+}
+p {
+  position: relative;
+  top: 35%;
+  width: 100%;
+  height: 10%;
+  line-height: 4rem;
+  font-weight: bold;
+}
+p input {
+  width: 70%;
+  height: 70%;
+  padding-left: 5%;
+  outline-style: none;
+  border: 1px solid #a9a9a9;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+button {
+  width: 70%;
+  height: 70%;
+  line-height: 100%;
+  outline-style: none;
+  border: 1px solid #f8f8ff;
+  border-radius: 15px;
+  font-size: 1.285714285714286rem;
+  font-weight: 400;
+  color: #f8f8ff;
+  letter-spacing: 0.571428571428571rem;
+  background-color: #b6c1ff;
+  box-sizing: border-box;
+}
+input::-webkit-input-placeholder {
+  color: #2e2e2e;
+  opacity: 0.3;
+}
+ul {
+  position: relative;
+  top: 32%;
+  overflow: hidden;
+  -webkit-padding-start: 0;
+}
+ul li {
+  float: left;
+  padding: 5%;
+  list-style: none;
+  font-size: 1rem;
+  color: #f8f8ff;
+  box-sizing: border-box;
+}
+ul li:first-child {
+  margin-left: 15%;
+}
+ul li a {
+  color: #f8f8ff;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+#warp {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  height: 10%;
+  line-height: 4rem;
+  background-color: #515151;
+  color: #fff;
+  opacity: 0;
+  transition: 0.5s;
+  display: none;
+  z-index: 1;
+}

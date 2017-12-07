@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+     .navbar-inverse .navbar-nav > li > a {
+          color: white;
+          /*text-indent: 2em;*/
+          float: left;
+          padding: 5% 8%;
+     }
+}

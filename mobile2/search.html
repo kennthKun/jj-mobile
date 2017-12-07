@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" media= "screen (min-width: 768px)"  href="styles/list768.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/search.css">
+</head>
+<body>
+<!--头部-->
+    <header id = "top">
+            <div  id = "callback" class = "callback-warp">
+                <a class = "callback" href="javascript:history.go(-1)">
+                    <span class = "glyphicon glyphicon-chevron-left">
+                    </span>
+                </a>
+            </div>
+            <div class = "search-warp">
+                <input type="text"  id= "search" placeholder="请输入搜索商品">
+            </div>
+            <div class= "btn-warp"><button class = "search-btn">搜索</button></div>
+    </header>
+<!--内容-->
+    <section id = "list-warp">
+        <div id = "list-var" class = "list-content">
+            <ul id = "shop-list-warp">
+                <li class = "shop-list-content">
+                    <a class = "return-detail" >
+                        <div class = "left-warp">
+                            <img src="" alt="">
+                        </div>
+                        <div class = "middle-warp">
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <div class = "right-warp">
+                            <b></b>
+                            <span class = "join-cart">
+                                <img src="images/cart.svg" alt="">
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+<!--回到顶部-->
+    <div id = "back-to-top"></div>
+<script src = "scripts/jquery.js"></script>
+<script src = "scripts/bootstrap.js"></script>
+<script src = "scripts/common.js"></script>
+<script src = "scripts/search.js"></script>
+
+</body>
+</html>
